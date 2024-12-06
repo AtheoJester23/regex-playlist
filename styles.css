@@ -22,3 +22,19 @@ input{
     border: 3px solid #ccc;
     outline: none !important;
 }
+
+input.valid{
+    border-color: #37cc37;
+}
+
+input.invalid{
+    border-color: orangered;
+}
+
+input + p{
+    display: none;
+}
+
+input.invalid + p{
+    display: block;
+}
